@@ -10,3 +10,7 @@ Content-Type: application/json
   "password": "123456",
   "chave-malvada": "não devia estar aqui"
 }
+
+### Read one user
+# @name readOneUser
+GET {{baseUrl}}/user/321
