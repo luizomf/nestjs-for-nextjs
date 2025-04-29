@@ -7,7 +7,7 @@
 @imageUrl = {{baseUrl}}{{imagePath}}
 
 @userNameForTesting = Luiz
-@userEmailForTesting = joao@email.com
+@userEmailForTesting = luiz@email.com
 @userPasswordForTesting = 123456
 @userNewPasswordForTesting = 123456
 
@@ -77,7 +77,7 @@ Content-Type: application/json
 Authorization: Bearer {{jwtToken}}
 
 {
-  "title": "PUBLISHED JOAO Título do post",
+  "title": "Título do post",
   "excerpt": "Excerto do post",
   "content": "Conteúdo",
   "coverImageUrl": "http://localhost"
@@ -108,7 +108,7 @@ Content-Type: application/json
 Authorization: Bearer {{jwtToken}}
 
 {
-  "title": "1 PUBLISHED JOAO - Título do post",
+  "title": "PUBLISHED Título do post",
   "excerpt": "NOVO - Excerto",
   "content": "NOVO - Conteúdo",
   "published": true
